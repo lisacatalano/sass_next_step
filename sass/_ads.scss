@@ -1,0 +1,22 @@
+// Advertisements
+#ad {
+  clear: both;
+  margin: 10px 0 30px;
+  color: black;
+  font-size: 2em;
+  float: left;
+}
+#newsletter {
+  height: 70px;
+  width: 70px;
+  margin-top: 10px;
+  padding: 10px 8px;
+  background-color: $base;
+  float: right;
+  font-weight: bold;
+  text-align: center;
+
+  a {
+    color: $accent;
+  }
+}

@@ -1,0 +1,65 @@
+// Navigation
+nav {
+  height: 30px;
+  margin: 45px 0 0;
+  line-height: 30px;
+  font-weight: bold;
+
+  ul li a {
+    position: relative;
+    width: 112px;
+    float: left;
+    background-color: $base;
+    margin-right: 5px;
+    text-align: center;
+    color: white;
+    @include rounded;
+    @extend %transition;
+
+    &:hover {
+      background-color: $accent;
+    }
+  }
+
+  ul.account {
+    float: none;
+    margin-top: 0;
+    border: 1px solid #3FF;
+  }
+}
+
+nav ul li, footer ul li {
+  float: left;
+}
+
+
+// Workout Overlay Menu
+#type {
+  display: none;
+  background-color: $base;
+  width: 580px;
+  height: 260px;
+  position: absolute;
+  top: 119px;
+  left: 80px;
+  z-index: 200;
+  padding: 10px 0px 10px 10px;
+  line-height: 50px;
+  @include rounded(10px);
+
+  li {
+    float: left;
+    width: 190px;
+
+    a {
+      color: white;
+      width: 180px;
+      margin: 8px;
+      text-align: left;
+    }
+  }
+
+  img {
+    padding-right: 8px;
+  }
+}

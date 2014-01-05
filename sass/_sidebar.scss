@@ -1,0 +1,20 @@
+// Sidebar Module
+#sidebar {
+  margin: -48px 0 0 10px;
+  padding: 10px 15px 25px;
+  width: 130px;
+  height: 420px;
+  background-color: $base;
+  color: white;
+  float: right;
+  @include rounded(15px);
+
+  img {
+    margin-left: 15px;
+  }
+
+  h3 {
+    margin: 5px 12px 10px;
+    font-size: 1.2em;
+  }
+}

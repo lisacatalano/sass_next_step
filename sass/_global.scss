@@ -1,0 +1,32 @@
+// Videofitness Global Styles
+body, select, input, textarea {
+  color: $base;
+}
+body {
+  background-color: $base;
+  font-family: $basefont;
+  font-size: 80%;
+}
+#container {
+  width: 820px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 0 70px;
+  -moz-box-shadow: -3px 0px 5px #20211D;
+  -webkit-box-shadow: -3px 0px 5px #20211D;
+  box-shadow: -3px 0px 5px #000;
+  behavior: url(PIE.htc);
+}
+
+#main {
+  hidden: overflow;
+  overflow: auto;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+img {
+  float: left;
+}
