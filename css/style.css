@@ -109,10 +109,10 @@ button {
 
 /* line 8, _setup.scss */
 nav ul li a, .new span.overlay, #player_nav li a, #listing li a {
-  -moz-transition: all .3s ease-in;
-  -webkit-transition: all .3s ease-in;
-  -o-transition: all .3s ease-in;
-  transition: all .3s ease-in;
+  -moz-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  transition: all .2s ease-in;
 }
 
 /* line 2, _global.scss */
@@ -448,14 +448,18 @@ span.overlay img {
   -o-border-radius: 15px 15px 0 0;
   border-radius: 15px 15px 0 0;
   behavior: url(PIE.htc);
+  -webkit-transition-property: border, color, background-color;
+  -moz-transition-property: border, color, background-color;
+  -o-transition-property: border, color, background-color;
+  transition-property: border, color, background-color;
 }
-/* line 45, _workout.scss */
+/* line 49, _workout.scss */
 #player_nav li a:hover {
   background-color: #c2cf52;
   border: 5px solid #c2cf52;
   border-bottom: none;
 }
-/* line 50, _workout.scss */
+/* line 54, _workout.scss */
 #player_nav li a.active {
   background: white url(../images/player.png) no-repeat;
   color: #4e4f48;
@@ -464,42 +468,42 @@ span.overlay img {
   border-bottom: none;
   cursor: default;
 }
-/* line 60, _workout.scss */
+/* line 64, _workout.scss */
 #player_nav li li a[href^="#reviews"] {
   margin-right: 0;
 }
-/* line 65, _workout.scss */
+/* line 69, _workout.scss */
 #player_nav li.detail a {
   background-position: 0 -43px;
 }
-/* line 66, _workout.scss */
+/* line 70, _workout.scss */
 #player_nav li.video a {
   background-position: 0 -129px;
 }
-/* line 67, _workout.scss */
+/* line 71, _workout.scss */
 #player_nav li.review a {
   background-position: 0 -215px;
 }
-/* line 69, _workout.scss */
+/* line 73, _workout.scss */
 #player_nav li.detail a.active {
   background-position: 0 0px;
 }
-/* line 70, _workout.scss */
+/* line 74, _workout.scss */
 #player_nav li.video a.active {
   background-position: 0 -86px;
 }
-/* line 71, _workout.scss */
+/* line 75, _workout.scss */
 #player_nav li.review a.active {
   background-position: 0 -172px;
 }
-/* line 73, _workout.scss */
+/* line 77, _workout.scss */
 #player_nav img {
   vertical-align: middle;
   margin: 0 10px;
   float: none;
 }
 
-/* line 80, _workout.scss */
+/* line 84, _workout.scss */
 #player {
   width: 640px;
   border: 5px solid #4e4f48;
@@ -513,92 +517,92 @@ span.overlay img {
   behavior: url(PIE.htc);
 }
 
-/* line 94, _workout.scss */
+/* line 98, _workout.scss */
 #col1 {
   float: left;
   width: 200px;
   padding: 15px;
 }
-/* line 99, _workout.scss */
+/* line 103, _workout.scss */
 #col1 .stock {
   font-size: 2em;
 }
-/* line 103, _workout.scss */
+/* line 107, _workout.scss */
 #col1 p {
   font-size: .9em;
   line-height: 1.3em;
 }
 
-/* line 109, _workout.scss */
+/* line 113, _workout.scss */
 #col2 {
   float: left;
   width: 370px;
   padding: 15px;
 }
-/* line 114, _workout.scss */
+/* line 118, _workout.scss */
 #col2 .description {
   clear: left;
   padding-top: 15px;
 }
 
-/* line 120, _workout.scss */
+/* line 124, _workout.scss */
 #details, #video, #reviews {
   clear: both;
   overflow: hidden;
 }
 
-/* line 124, _workout.scss */
+/* line 128, _workout.scss */
 .classify {
   clear: right;
   margin-top: 10px;
 }
-/* line 128, _workout.scss */
+/* line 132, _workout.scss */
 .classify p {
   line-height: 35px;
   float: left;
   font-weight: bold;
 }
-/* line 133, _workout.scss */
+/* line 137, _workout.scss */
 .classify img {
   vertical-align: middle;
   padding: 5px;
 }
 
-/* line 139, _workout.scss */
+/* line 143, _workout.scss */
 #details {
   line-height: 1.4em;
 }
 
-/* line 143, _workout.scss */
+/* line 147, _workout.scss */
 #video {
   width: 600px;
   margin: auto;
   padding: 15px;
 }
 
-/* line 148, _workout.scss */
+/* line 152, _workout.scss */
 #reviews {
   width: 590px;
   margin: auto;
   padding: 20px;
 }
-/* line 153, _workout.scss */
+/* line 157, _workout.scss */
 #reviews img {
   float: left;
 }
-/* line 156, _workout.scss */
+/* line 160, _workout.scss */
 #reviews h3 {
   float: left;
   margin: 0 0 5px 5px;
   font-size: 1.1em;
 }
-/* line 161, _workout.scss */
+/* line 165, _workout.scss */
 #reviews p {
   line-height: 1.4em;
   margin: 0 0 1.2em 0;
 }
 
-/* line 167, _workout.scss */
+/* line 171, _workout.scss */
 p.reviewer {
   clear: both;
   font-size: .95em;

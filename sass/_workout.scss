@@ -41,6 +41,10 @@ $image_offset: -($image_size);
       border-radius: 15px 15px 0 0;
       behavior: url(PIE.htc);
       @extend %transition;
+      -webkit-transition-property: border, color, background-color;
+      -moz-transition-property: border, color, background-color;
+      -o-transition-property: border, color, background-color;
+      transition-property: border, color, background-color;
 
       &:hover {
         background-color: $accent;
