@@ -1,4 +1,7 @@
 // Workout Details Page
+$image_size: 43px;
+$image_offset: -($image_size);
+
 #price {
   float: right;
   margin: -20px 280px 0 0;
@@ -24,8 +27,8 @@
       position: relative;
       display: block;
       width: 156px;
-      height: 43px;
-      line-height: 43px;
+      height: $image_size;
+      line-height: $image_size;
       padding: 0 0 0 50px;
       background: $base url(../images/player.png) no-repeat;
       border: 5px solid $base;
@@ -47,7 +50,7 @@
       &.active {
         background: #ffffff url(../images/player.png) no-repeat;
         color: $base;
-        height: 43px;
+        height: $image_size;
         border: 5px solid $base;
         border-bottom: none;
         cursor: default;
@@ -59,13 +62,13 @@
     }
   }
 
-  li.detail a { background-position: 0 -43px; }
-  li.video a  { background-position: 0 -129px; }
-  li.review a { background-position: 0 -215px; }
+  li.detail a { background-position: 0 ($image_offset * 1); }
+  li.video a  { background-position: 0 ($image_offset * 3); }
+  li.review a { background-position: 0 ($image_offset * 5); }
 
-  li.detail a.active { background-position: 0 0px; }
-  li.video  a.active { background-position: 0 -86px; }
-  li.review a.active { background-position: 0 -172px; }
+  li.detail a.active { background-position: 0 ($image_offset * 0); }
+  li.video  a.active { background-position: 0 ($image_offset * 2); }
+  li.review a.active { background-position: 0 ($image_offset * 4); }
 
   img {
     vertical-align: middle;
