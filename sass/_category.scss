@@ -17,6 +17,7 @@
     list-style: none;
 
     a {
+      box-sizing: border-box;
       width: 200px;
       margin: 10px;
       display: block;
@@ -25,6 +26,7 @@
       color:  $base;
       font-size: 1.3em;
       margin-left: 1em;
+      padding-left: $icon_padding;
       @extend %transition;
 
       &:hover {

@@ -52,9 +52,11 @@ nav ul li, footer ul li {
     width: 190px;
 
     a {
+      box-sizing: border-box;
       color: white;
       width: 180px;
       margin: 8px;
+      padding-left: $icon_padding;
       text-align: left;
     }
   }
