@@ -159,7 +159,7 @@ img {
 header {
   height: 125px;
   background: transparent url(../images/logo.png) no-repeat 0 18px;
-  border-bottom: 2px solid #c2cf52;
+  border-bottom: 2px solid #336699;
   position: relative;
   margin-bottom: 25px;
 }
@@ -264,7 +264,7 @@ nav ul li a {
 }
 /* line 19, _nav.scss */
 nav ul li a:hover {
-  background-color: #c2cf52;
+  background-color: #336699;
 }
 /* line 24, _nav.scss */
 nav ul.account {
@@ -300,14 +300,12 @@ nav ul li, footer ul li {
 }
 /* line 54, _nav.scss */
 #type li a {
-  box-sizing: border-box;
   color: white;
   width: 180px;
   margin: 8px;
-  padding-left: 60px;
   text-align: left;
 }
-/* line 64, _nav.scss */
+/* line 62, _nav.scss */
 #type img {
   padding-right: 8px;
 }
@@ -403,7 +401,7 @@ span.overlay img {
 }
 /* line 19, _ads.scss */
 #newsletter a {
-  color: #c2cf52;
+  color: #336699;
 }
 
 /* line 5, _workout.scss */
@@ -457,8 +455,8 @@ span.overlay img {
 }
 /* line 49, _workout.scss */
 #player_nav li a:hover {
-  background-color: #c2cf52;
-  border: 5px solid #c2cf52;
+  background-color: #336699;
+  border: 5px solid #336699;
   border-bottom: none;
 }
 /* line 54, _workout.scss */
@@ -633,28 +631,27 @@ p.reviewer {
   font-size: 1.2em;
 }
 
-/* line 2, _category.scss */
+/* line 15, _category.scss */
 #category #main {
   height: 468px;
 }
 
-/* line 7, _category.scss */
+/* line 20, _category.scss */
 #listing ul {
   line-height: 50px;
   border-radius: 10px;
   behavior: url(PIE.htc);
 }
-/* line 12, _category.scss */
+/* line 25, _category.scss */
 #listing img {
   padding-right: 8px;
 }
-/* line 16, _category.scss */
+/* line 29, _category.scss */
 #listing li {
   list-style: none;
 }
-/* line 19, _category.scss */
+/* line 32, _category.scss */
 #listing li a {
-  box-sizing: border-box;
   width: 200px;
   margin: 10px;
   display: block;
@@ -663,11 +660,88 @@ p.reviewer {
   color: #4e4f48;
   font-size: 1.3em;
   margin-left: 1em;
-  padding-left: 60px;
 }
-/* line 32, _category.scss */
+/* line 43, _category.scss */
 #listing li a:hover {
   border-radius: 8px;
   behavior: url(PIE.htc);
-  background-color: #c2cf52;
+  background-color: #336699;
+}
+
+/* line 53, _category.scss */
+.ball {
+  background: #336699 url(../images/icon/ball.png) no-repeat;
+}
+
+/* line 53, _category.scss */
+.ballet {
+  background: #336699 url(../images/icon/ballet.png) no-repeat;
+}
+
+/* line 53, _category.scss */
+.bosu {
+  background: #336699 url(../images/icon/bosu.png) no-repeat;
+}
+
+/* line 53, _category.scss */
+.cardio {
+  background: #336699 url(../images/icon/cardio.png) no-repeat;
+}
+
+/* line 53, _category.scss */
+.circuit {
+  background: #336699 url(../images/icon/circuit.png) no-repeat;
+}
+
+/* line 53, _category.scss */
+.kettlebell {
+  background: #336699 url(../images/icon/kettlebell.png) no-repeat;
+}
+
+/* line 53, _category.scss */
+.kickbox {
+  background: #336699 url(../images/icon/kickbox.png) no-repeat;
+}
+
+/* line 53, _category.scss */
+.pilates {
+  background: #336699 url(../images/icon/pilates.png) no-repeat;
+}
+
+/* line 53, _category.scss */
+.spinning {
+  background: #336699 url(../images/icon/spinning.png) no-repeat;
+}
+
+/* line 53, _category.scss */
+.step {
+  background: #336699 url(../images/icon/step.png) no-repeat;
+}
+
+/* line 53, _category.scss */
+.strength {
+  background: #336699 url(../images/icon/strength.png) no-repeat;
+}
+
+/* line 53, _category.scss */
+.yoga {
+  background: #336699 url(../images/icon/yoga.png) no-repeat;
+}
+
+/* line 58, _category.scss */
+.category span {
+  display: inline-block;
+  width: 50px;
+  margin-right: 8px;
+  border-radius: 8px;
+  behavior: url(PIE.htc);
+}
+/* line 63, _category.scss */
+.category span:after {
+  content: ".";
+  color: #336699;
+}
+/* line 67, _category.scss */
+.category span.spinning:after {
+  color: #fff;
 }
