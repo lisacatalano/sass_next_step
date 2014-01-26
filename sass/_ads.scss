@@ -20,3 +20,47 @@
     color: $accent;
   }
 }
+
+.ad {
+  clear: both;
+  width: 728px;
+  height: 90px;
+  margin: 10px 0 30px;
+  background-color: $accent;
+  color: $base;
+  font-size: 2em;
+  float: left;
+  overflow: hidden;
+  position: relative;
+
+  .msg {
+    padding-left: 40px;
+    width: 100%;
+    font-size: 2em;
+    line-height: 90px;
+    position: absolute;
+    top: 0;
+    background-color: $accent;
+    // set initial opacity to 0 for all messages
+    opacity: 0;
+
+    // show first message
+    &:first-child {
+      opacity: 1;
+    }
+  }
+}
+.newsletter {
+  height: 70px;
+  width: 70px;
+  margin-top: 10px;
+  padding: 10px 8px;
+  background-color: $base;
+  float: right;
+  font-weight: bold;
+  text-align: center;
+
+  a {
+    color: $accent;
+  }
+}

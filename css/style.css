@@ -159,7 +159,7 @@ img {
 header {
   height: 125px;
   background: transparent url(../images/logo.png) no-repeat 0 18px;
-  border-bottom: 2px solid #336699;
+  border-bottom: 2px solid #c2cf52;
   position: relative;
   margin-bottom: 25px;
 }
@@ -264,7 +264,7 @@ nav ul li a {
 }
 /* line 19, _nav.scss */
 nav ul li a:hover {
-  background-color: #336699;
+  background-color: #c2cf52;
 }
 /* line 24, _nav.scss */
 nav ul.account {
@@ -401,7 +401,52 @@ span.overlay img {
 }
 /* line 19, _ads.scss */
 #newsletter a {
-  color: #336699;
+  color: #c2cf52;
+}
+
+/* line 24, _ads.scss */
+.ad {
+  clear: both;
+  width: 728px;
+  height: 90px;
+  margin: 10px 0 30px;
+  background-color: #c2cf52;
+  color: #4e4f48;
+  font-size: 2em;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+/* line 36, _ads.scss */
+.ad .msg {
+  padding-left: 40px;
+  width: 100%;
+  font-size: 2em;
+  line-height: 90px;
+  position: absolute;
+  top: 0;
+  background-color: #c2cf52;
+  opacity: 0;
+}
+/* line 48, _ads.scss */
+.ad .msg:first-child {
+  opacity: 1;
+}
+
+/* line 53, _ads.scss */
+.newsletter {
+  height: 70px;
+  width: 70px;
+  margin-top: 10px;
+  padding: 10px 8px;
+  background-color: #4e4f48;
+  float: right;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 63, _ads.scss */
+.newsletter a {
+  color: #c2cf52;
 }
 
 /* line 5, _workout.scss */
@@ -455,8 +500,8 @@ span.overlay img {
 }
 /* line 49, _workout.scss */
 #player_nav li a:hover {
-  background-color: #336699;
-  border: 5px solid #336699;
+  background-color: #c2cf52;
+  border: 5px solid #c2cf52;
   border-bottom: none;
 }
 /* line 54, _workout.scss */
@@ -665,67 +710,67 @@ p.reviewer {
 #listing li a:hover {
   border-radius: 8px;
   behavior: url(PIE.htc);
-  background-color: #336699;
+  background-color: #c2cf52;
 }
 
 /* line 53, _category.scss */
 .ball {
-  background: #336699 url(../images/icon/ball.png) no-repeat;
+  background: #c2cf52 url(../images/icon/ball.png) no-repeat;
 }
 
 /* line 53, _category.scss */
 .ballet {
-  background: #336699 url(../images/icon/ballet.png) no-repeat;
+  background: #c2cf52 url(../images/icon/ballet.png) no-repeat;
 }
 
 /* line 53, _category.scss */
 .bosu {
-  background: #336699 url(../images/icon/bosu.png) no-repeat;
+  background: #c2cf52 url(../images/icon/bosu.png) no-repeat;
 }
 
 /* line 53, _category.scss */
 .cardio {
-  background: #336699 url(../images/icon/cardio.png) no-repeat;
+  background: #c2cf52 url(../images/icon/cardio.png) no-repeat;
 }
 
 /* line 53, _category.scss */
 .circuit {
-  background: #336699 url(../images/icon/circuit.png) no-repeat;
+  background: #c2cf52 url(../images/icon/circuit.png) no-repeat;
 }
 
 /* line 53, _category.scss */
 .kettlebell {
-  background: #336699 url(../images/icon/kettlebell.png) no-repeat;
+  background: #c2cf52 url(../images/icon/kettlebell.png) no-repeat;
 }
 
 /* line 53, _category.scss */
 .kickbox {
-  background: #336699 url(../images/icon/kickbox.png) no-repeat;
+  background: #c2cf52 url(../images/icon/kickbox.png) no-repeat;
 }
 
 /* line 53, _category.scss */
 .pilates {
-  background: #336699 url(../images/icon/pilates.png) no-repeat;
+  background: #c2cf52 url(../images/icon/pilates.png) no-repeat;
 }
 
 /* line 53, _category.scss */
 .spinning {
-  background: #336699 url(../images/icon/spinning.png) no-repeat;
+  background: #c2cf52 url(../images/icon/spinning.png) no-repeat;
 }
 
 /* line 53, _category.scss */
 .step {
-  background: #336699 url(../images/icon/step.png) no-repeat;
+  background: #c2cf52 url(../images/icon/step.png) no-repeat;
 }
 
 /* line 53, _category.scss */
 .strength {
-  background: #336699 url(../images/icon/strength.png) no-repeat;
+  background: #c2cf52 url(../images/icon/strength.png) no-repeat;
 }
 
 /* line 53, _category.scss */
 .yoga {
-  background: #336699 url(../images/icon/yoga.png) no-repeat;
+  background: #c2cf52 url(../images/icon/yoga.png) no-repeat;
 }
 
 /* line 58, _category.scss */
@@ -739,7 +784,7 @@ p.reviewer {
 /* line 63, _category.scss */
 .category span:after {
   content: ".";
-  color: #336699;
+  color: #c2cf52;
 }
 /* line 67, _category.scss */
 .category span.spinning:after {
