@@ -466,48 +466,43 @@ span.overlay img {
 }
 
 @-webkit-keyframes adAnimation {
-  /* line 85, _ads.scss */
+  /* line 14, _animate.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 86, _ads.scss */
+  /* line 15, _animate.scss */
   5%, 20% {
     opacity: 1;
   }
 
-  /* line 87, _ads.scss */
+  /* line 16, _animate.scss */
   24.9%, 100% {
     opacity: 0;
   }
 }
-/* line 92, _ads.scss */
-.ad .msg:nth-of-type(1) {
+/* line 21, _animate.scss */
+.ad .msg {
   -webkit-animation: adAnimation 20s infinite;
-  -webkit-animation-delay: 0;
 }
-
-/* line 98, _ads.scss */
+/* line 25, _animate.scss */
+.ad .msg:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+}
+/* line 25, _animate.scss */
 .ad .msg:nth-of-type(2) {
-  -webkit-animation: adAnimation 20s infinite;
   -webkit-animation-delay: 4s;
 }
-
-/* line 104, _ads.scss */
+/* line 25, _animate.scss */
 .ad .msg:nth-of-type(3) {
-  -webkit-animation: adAnimation 20s infinite;
   -webkit-animation-delay: 8s;
 }
-
-/* line 110, _ads.scss */
+/* line 25, _animate.scss */
 .ad .msg:nth-of-type(4) {
-  -webkit-animation: adAnimation 20s infinite;
   -webkit-animation-delay: 12s;
 }
-
-/* line 116, _ads.scss */
+/* line 25, _animate.scss */
 .ad .msg:nth-of-type(5) {
-  -webkit-animation: adAnimation 20s infinite;
   -webkit-animation-delay: 16s;
 }
 
