@@ -10,23 +10,32 @@ $ad-screen-pct: 100% / $ad-screen-count;
 $ad-fade-pct: $ad-fade-duration / $total-duration * 100%;
 $ad-hide-pct: $ad-screen-pct + $ad-fade-pct;
 
-//@warn 'hide-pct:' $ad-hide-pct 'fade-pct:' $ad-fade-pct;
+$vendors: "-webkit-", "-moz-", "-o-", "";
 
 // Animation Set Up - Step 1
-@-webkit-keyframes adAnimation {
+@mixin fadeInOut {
   0%                                  { opacity: 0; }
   #{$ad-fade-pct}, #{$ad-screen-pct}  { opacity: 1; }
   #{$ad-hide-pct}, 100%               { opacity: 0; }
 }
 
+@-webkit-keyframes adAnimation { @include fadeInOut }
+@-moz-keyframes adAnimation { @include fadeInOut }
+@-o-keyframes adAnimation { @include fadeInOut }
+@keyframes adAnimation { @include fadeInOut }
+
 // Animate the Ad - Step 2
 .ad {
   .msg {
-    -webkit-animation: adAnimation #{$total-duration}s infinite;
+    @each $vendor in $vendors {
+      #{$vendor}animation: adAnimation #{$total-duration}s infinite;
+    }
 
     @for $i from 1 through $ad-screen-count {
       &:nth-of-type(#{$i}) {
-        -webkit-animation-delay: #{($i - 1) * $ad-msg-duration}s;
+        @each $vendor in $vendors {
+          #{$vendor}animation-delay: #{($i - 1) * $ad-msg-duration}s;
+        }
       }
     }
   }
