@@ -2,6 +2,10 @@
 $image_size: 43px;
 $image_offset: -($image_size);
 
+@mixin bp($place: 0) {
+  background-position: 0px ($image_offset * $place) - 2;
+}
+
 #price {
   float: right;
   margin: -20px 280px 0 0;
@@ -66,13 +70,13 @@ $image_offset: -($image_size);
     }
   }
 
-  li.detail a { background-position: 0 ($image_offset * 1); }
-  li.video a  { background-position: 0 ($image_offset * 3); }
-  li.review a { background-position: 0 ($image_offset * 5); }
+  li.detail a { @include bp(1) }
+  li.video a  { @include bp(3) }
+  li.review a { @include bp(5) }
 
-  li.detail a.active { background-position: 0 ($image_offset * 0); }
-  li.video  a.active { background-position: 0 ($image_offset * 2); }
-  li.review a.active { background-position: 0 ($image_offset * 4); }
+  li.detail a.active { @include bp(0) }
+  li.video  a.active { @include bp(2) }
+  li.review a.active { @include bp(4) }
 
   img {
     vertical-align: middle;
@@ -136,7 +140,9 @@ $image_offset: -($image_size);
   }
   img {
     vertical-align: middle;
-    padding: 5px;
+    margin: 5px;
+    background-color: $accent;
+    @include rounded(5px);
   }
 }
 

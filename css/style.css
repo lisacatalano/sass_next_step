@@ -343,17 +343,18 @@ footer li a.last {
   margin-bottom: 20px;
   float: left;
   position: relative;
+  overflow: hidden;
 }
-/* line 7, _feature.scss */
+/* line 8, _feature.scss */
 #feature img {
   position: relative;
 }
 
-/* line 13, _feature.scss */
+/* line 14, _feature.scss */
 .new {
   float: left;
 }
-/* line 16, _feature.scss */
+/* line 17, _feature.scss */
 .new span.overlay {
   display: block;
   opacity: 0;
@@ -368,13 +369,13 @@ footer li a.last {
   padding: 10px;
   color: white;
 }
-/* line 32, _feature.scss */
+/* line 33, _feature.scss */
 .new a:hover span.overlay {
   opacity: 1;
   bottom: 0;
 }
 
-/* line 38, _feature.scss */
+/* line 39, _feature.scss */
 span.overlay img {
   padding-right: 6px;
 }
@@ -554,21 +555,21 @@ span.overlay img {
   animation-delay: 20s;
 }
 
-/* line 5, _workout.scss */
+/* line 9, _workout.scss */
 #price {
   float: right;
   margin: -20px 280px 0 0;
   font-weight: bold;
 }
 
-/* line 10, _workout.scss */
+/* line 14, _workout.scss */
 #add {
   clear: both;
   margin: -23px 180px 18px 0;
   float: right;
 }
 
-/* line 17, _workout.scss */
+/* line 21, _workout.scss */
 #player_nav {
   clear: both;
   height: 48px;
@@ -576,11 +577,11 @@ span.overlay img {
   font-size: 1.2em;
   list-style: none;
 }
-/* line 24, _workout.scss */
+/* line 28, _workout.scss */
 #player_nav li {
   float: left;
 }
-/* line 26, _workout.scss */
+/* line 30, _workout.scss */
 #player_nav li a {
   position: relative;
   display: block;
@@ -603,13 +604,13 @@ span.overlay img {
   -o-transition-property: border, color, background-color;
   transition-property: border, color, background-color;
 }
-/* line 49, _workout.scss */
+/* line 53, _workout.scss */
 #player_nav li a:hover {
   background-color: #c2cf52;
   border: 5px solid #c2cf52;
   border-bottom: none;
 }
-/* line 54, _workout.scss */
+/* line 58, _workout.scss */
 #player_nav li a.active {
   background: white url(../images/player.png) no-repeat;
   color: #4e4f48;
@@ -618,42 +619,42 @@ span.overlay img {
   border-bottom: none;
   cursor: default;
 }
-/* line 64, _workout.scss */
+/* line 68, _workout.scss */
 #player_nav li li a[href^="#reviews"] {
   margin-right: 0;
 }
-/* line 69, _workout.scss */
-#player_nav li.detail a {
-  background-position: 0 -43px;
-}
-/* line 70, _workout.scss */
-#player_nav li.video a {
-  background-position: 0 -129px;
-}
-/* line 71, _workout.scss */
-#player_nav li.review a {
-  background-position: 0 -215px;
-}
 /* line 73, _workout.scss */
-#player_nav li.detail a.active {
-  background-position: 0 0px;
+#player_nav li.detail a {
+  background-position: 0px -45px;
 }
 /* line 74, _workout.scss */
-#player_nav li.video a.active {
-  background-position: 0 -86px;
+#player_nav li.video a {
+  background-position: 0px -131px;
 }
 /* line 75, _workout.scss */
-#player_nav li.review a.active {
-  background-position: 0 -172px;
+#player_nav li.review a {
+  background-position: 0px -217px;
 }
 /* line 77, _workout.scss */
+#player_nav li.detail a.active {
+  background-position: 0px -2px;
+}
+/* line 78, _workout.scss */
+#player_nav li.video a.active {
+  background-position: 0px -88px;
+}
+/* line 79, _workout.scss */
+#player_nav li.review a.active {
+  background-position: 0px -174px;
+}
+/* line 81, _workout.scss */
 #player_nav img {
   vertical-align: middle;
   margin: 0 10px;
   float: none;
 }
 
-/* line 84, _workout.scss */
+/* line 88, _workout.scss */
 #player {
   width: 640px;
   border: 5px solid #4e4f48;
@@ -667,92 +668,95 @@ span.overlay img {
   behavior: url(PIE.htc);
 }
 
-/* line 98, _workout.scss */
+/* line 102, _workout.scss */
 #col1 {
   float: left;
   width: 200px;
   padding: 15px;
 }
-/* line 103, _workout.scss */
+/* line 107, _workout.scss */
 #col1 .stock {
   font-size: 2em;
 }
-/* line 107, _workout.scss */
+/* line 111, _workout.scss */
 #col1 p {
   font-size: .9em;
   line-height: 1.3em;
 }
 
-/* line 113, _workout.scss */
+/* line 117, _workout.scss */
 #col2 {
   float: left;
   width: 370px;
   padding: 15px;
 }
-/* line 118, _workout.scss */
+/* line 122, _workout.scss */
 #col2 .description {
   clear: left;
   padding-top: 15px;
 }
 
-/* line 124, _workout.scss */
+/* line 128, _workout.scss */
 #details, #video, #reviews {
   clear: both;
   overflow: hidden;
 }
 
-/* line 128, _workout.scss */
+/* line 132, _workout.scss */
 .classify {
   clear: right;
   margin-top: 10px;
 }
-/* line 132, _workout.scss */
+/* line 136, _workout.scss */
 .classify p {
   line-height: 35px;
   float: left;
   font-weight: bold;
 }
-/* line 137, _workout.scss */
+/* line 141, _workout.scss */
 .classify img {
   vertical-align: middle;
-  padding: 5px;
+  margin: 5px;
+  background-color: #c2cf52;
+  border-radius: 5px;
+  behavior: url(PIE.htc);
 }
 
-/* line 143, _workout.scss */
+/* line 149, _workout.scss */
 #details {
   line-height: 1.4em;
 }
 
-/* line 147, _workout.scss */
+/* line 153, _workout.scss */
 #video {
   width: 600px;
   margin: auto;
   padding: 15px;
 }
 
-/* line 152, _workout.scss */
+/* line 158, _workout.scss */
 #reviews {
   width: 590px;
   margin: auto;
   padding: 20px;
 }
-/* line 157, _workout.scss */
+/* line 163, _workout.scss */
 #reviews img {
   float: left;
 }
-/* line 160, _workout.scss */
+/* line 166, _workout.scss */
 #reviews h3 {
   float: left;
   margin: 0 0 5px 5px;
   font-size: 1.1em;
 }
-/* line 165, _workout.scss */
+/* line 171, _workout.scss */
 #reviews p {
   line-height: 1.4em;
   margin: 0 0 1.2em 0;
 }
 
-/* line 171, _workout.scss */
+/* line 177, _workout.scss */
 p.reviewer {
   clear: both;
   font-size: .95em;
