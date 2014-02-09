@@ -39,16 +39,10 @@ $image_offset: -($image_size);
       border-bottom: none;
       color: white;
       margin-right: 1px;
-      -moz-border-radius: 15px 15px 0 0;
-      -webkit-border-radius: 15px 15px 0 0;
-      -o-border-radius: 15px 15px 0 0;
-      border-radius: 15px 15px 0 0;
+      @include border-radius(15px 15px 0 0);
       behavior: url(PIE.htc);
       @extend %transition;
-      -webkit-transition-property: border, color, background-color;
-      -moz-transition-property: border, color, background-color;
-      -o-transition-property: border, color, background-color;
-      transition-property: border, color, background-color;
+      @include transition-property(border, color, background-color);
 
       &:hover {
         background-color: $accent;
@@ -91,10 +85,7 @@ $image_offset: -($image_size);
   border-top: none;
   min-height: 400px;
   float: left;
-  -moz-border-radius: 0 0 15px 15px;
-  -webkit-border-radius: 0 0 15px 15px;
-  -o-border-radius: 0 0 15px 15px;
-  border-radius: 0 0 15px 15px;
+  @include border-radius(0 0 15px 15px);
   behavior: url(PIE.htc);
 
 }
