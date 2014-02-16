@@ -821,63 +821,63 @@ p.reviewer {
 }
 
 /* line 53, ../sass/_category.scss */
-.ball {
-  background: #c2cf52 url(../images/icon/ball.png) no-repeat;
+.icon-ball {
+  background-color: #c2cf52;
 }
 
 /* line 53, ../sass/_category.scss */
-.ballet {
-  background: #c2cf52 url(../images/icon/ballet.png) no-repeat;
+.icon-ballet {
+  background-color: #c2cf52;
 }
 
 /* line 53, ../sass/_category.scss */
-.bosu {
-  background: #c2cf52 url(../images/icon/bosu.png) no-repeat;
+.icon-bosu {
+  background-color: #c2cf52;
 }
 
 /* line 53, ../sass/_category.scss */
-.cardio {
-  background: #c2cf52 url(../images/icon/cardio.png) no-repeat;
+.icon-cardio {
+  background-color: #c2cf52;
 }
 
 /* line 53, ../sass/_category.scss */
-.circuit {
-  background: #c2cf52 url(../images/icon/circuit.png) no-repeat;
+.icon-circuit {
+  background-color: #c2cf52;
 }
 
 /* line 53, ../sass/_category.scss */
-.kettlebell {
-  background: #c2cf52 url(../images/icon/kettlebell.png) no-repeat;
+.icon-kettlebell {
+  background-color: #c2cf52;
 }
 
 /* line 53, ../sass/_category.scss */
-.kickbox {
-  background: #c2cf52 url(../images/icon/kickbox.png) no-repeat;
+.icon-kickbox {
+  background-color: #c2cf52;
 }
 
 /* line 53, ../sass/_category.scss */
-.pilates {
-  background: #c2cf52 url(../images/icon/pilates.png) no-repeat;
+.icon-pilates {
+  background-color: #c2cf52;
 }
 
 /* line 53, ../sass/_category.scss */
-.spinning {
-  background: #c2cf52 url(../images/icon/spinning.png) no-repeat;
+.icon-spinning {
+  background-color: #c2cf52;
 }
 
 /* line 53, ../sass/_category.scss */
-.step {
-  background: #c2cf52 url(../images/icon/step.png) no-repeat;
+.icon-step {
+  background-color: #c2cf52;
 }
 
 /* line 53, ../sass/_category.scss */
-.strength {
-  background: #c2cf52 url(../images/icon/strength.png) no-repeat;
+.icon-strength {
+  background-color: #c2cf52;
 }
 
 /* line 53, ../sass/_category.scss */
-.yoga {
-  background: #c2cf52 url(../images/icon/yoga.png) no-repeat;
+.icon-yoga {
+  background-color: #c2cf52;
 }
 
 /* line 58, ../sass/_category.scss */
@@ -896,4 +896,70 @@ p.reviewer {
 /* line 67, ../sass/_category.scss */
 .category span.spinning:after {
   color: #fff;
+}
+
+/* line 136, icon/*.png */
+.icon-sprite, .icon-ball, .icon-ballet, .icon-bosu, .icon-cardio, .icon-circuit, .icon-kettlebell, .icon-kickbox, .icon-pilates, .icon-spinning, .icon-step, .icon-strength, .icon-yoga {
+  background-image: url('/images/icon-s3698c6a263.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../Program Files (x86)/Prepros4/gems/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-ball {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../../../Program Files (x86)/Prepros4/gems/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-ballet {
+  background-position: 0 -50px;
+}
+
+/* line 84, ../../../../../Program Files (x86)/Prepros4/gems/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-bosu {
+  background-position: 0 -100px;
+}
+
+/* line 84, ../../../../../Program Files (x86)/Prepros4/gems/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-cardio {
+  background-position: 0 -150px;
+}
+
+/* line 84, ../../../../../Program Files (x86)/Prepros4/gems/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-circuit {
+  background-position: 0 -200px;
+}
+
+/* line 84, ../../../../../Program Files (x86)/Prepros4/gems/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-kettlebell {
+  background-position: 0 -250px;
+}
+
+/* line 84, ../../../../../Program Files (x86)/Prepros4/gems/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-kickbox {
+  background-position: 0 -300px;
+}
+
+/* line 84, ../../../../../Program Files (x86)/Prepros4/gems/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-pilates {
+  background-position: 0 -350px;
+}
+
+/* line 84, ../../../../../Program Files (x86)/Prepros4/gems/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-spinning {
+  background-position: 0 -400px;
+}
+
+/* line 84, ../../../../../Program Files (x86)/Prepros4/gems/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-step {
+  background-position: 0 -450px;
+}
+
+/* line 84, ../../../../../Program Files (x86)/Prepros4/gems/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-strength {
+  background-position: 0 -500px;
+}
+
+/* line 84, ../../../../../Program Files (x86)/Prepros4/gems/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-yoga {
+  background-position: 0 -550px;
 }

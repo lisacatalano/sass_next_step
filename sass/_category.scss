@@ -50,8 +50,8 @@ $categories: "ball",
 
 
 @each $category in $categories {
-  .#{$category} {
-    background: $accent url(../images/icon/#{$category}.png) no-repeat;
+  .icon-#{$category} {
+    background-color: $accent;
   }
 }
 
@@ -68,3 +68,6 @@ $categories: "ball",
     color: #fff;
   }
 }
+
+@import "icon/*.png";
+@include all-icon-sprites;
