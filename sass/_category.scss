@@ -1,7 +1,6 @@
 // Workout Categories
 $categories: "ball",
               "ballet",
-              "bosu",
               "cardio",
               "circuit",
               "kettlebell",
@@ -10,7 +9,9 @@ $categories: "ball",
               "spinning",
               "step",
               "strength",
+              "taichi",
               "yoga";
+
 
 #category #main {
   height: 468px;
@@ -48,10 +49,13 @@ $categories: "ball",
   }
 }
 
+%background {
+  background-color: $accent;
+}
 
 @each $category in $categories {
   .icon-#{$category} {
-    background-color: $accent;
+    @extend %background;
   }
 }
 

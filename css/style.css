@@ -783,26 +783,26 @@ p.reviewer {
   font-size: 1.2em;
 }
 
-/* line 15, ../sass/_category.scss */
+/* line 16, ../sass/_category.scss */
 #category #main {
   height: 468px;
 }
 
-/* line 20, ../sass/_category.scss */
+/* line 21, ../sass/_category.scss */
 #listing ul {
   line-height: 50px;
   border-radius: 10px;
   behavior: url(PIE.htc);
 }
-/* line 25, ../sass/_category.scss */
+/* line 26, ../sass/_category.scss */
 #listing img {
   padding-right: 8px;
 }
-/* line 29, ../sass/_category.scss */
+/* line 30, ../sass/_category.scss */
 #listing li {
   list-style: none;
 }
-/* line 32, ../sass/_category.scss */
+/* line 33, ../sass/_category.scss */
 #listing li a {
   width: 200px;
   margin: 10px;
@@ -813,74 +813,19 @@ p.reviewer {
   font-size: 1.3em;
   margin-left: 1em;
 }
-/* line 43, ../sass/_category.scss */
+/* line 44, ../sass/_category.scss */
 #listing li a:hover {
   border-radius: 8px;
   behavior: url(PIE.htc);
   background-color: #c2cf52;
 }
 
-/* line 53, ../sass/_category.scss */
-.icon-ball {
+/* line 52, ../sass/_category.scss */
+.icon-ball, .icon-ballet, .icon-cardio, .icon-circuit, .icon-kettlebell, .icon-kickbox, .icon-pilates, .icon-spinning, .icon-step, .icon-strength, .icon-taichi, .icon-yoga {
   background-color: #c2cf52;
 }
 
-/* line 53, ../sass/_category.scss */
-.icon-ballet {
-  background-color: #c2cf52;
-}
-
-/* line 53, ../sass/_category.scss */
-.icon-bosu {
-  background-color: #c2cf52;
-}
-
-/* line 53, ../sass/_category.scss */
-.icon-cardio {
-  background-color: #c2cf52;
-}
-
-/* line 53, ../sass/_category.scss */
-.icon-circuit {
-  background-color: #c2cf52;
-}
-
-/* line 53, ../sass/_category.scss */
-.icon-kettlebell {
-  background-color: #c2cf52;
-}
-
-/* line 53, ../sass/_category.scss */
-.icon-kickbox {
-  background-color: #c2cf52;
-}
-
-/* line 53, ../sass/_category.scss */
-.icon-pilates {
-  background-color: #c2cf52;
-}
-
-/* line 53, ../sass/_category.scss */
-.icon-spinning {
-  background-color: #c2cf52;
-}
-
-/* line 53, ../sass/_category.scss */
-.icon-step {
-  background-color: #c2cf52;
-}
-
-/* line 53, ../sass/_category.scss */
-.icon-strength {
-  background-color: #c2cf52;
-}
-
-/* line 53, ../sass/_category.scss */
-.icon-yoga {
-  background-color: #c2cf52;
-}
-
-/* line 58, ../sass/_category.scss */
+/* line 62, ../sass/_category.scss */
 .category span {
   display: inline-block;
   width: 50px;
@@ -888,19 +833,19 @@ p.reviewer {
   border-radius: 8px;
   behavior: url(PIE.htc);
 }
-/* line 63, ../sass/_category.scss */
+/* line 67, ../sass/_category.scss */
 .category span:after {
   content: ".";
   color: #c2cf52;
 }
-/* line 67, ../sass/_category.scss */
+/* line 71, ../sass/_category.scss */
 .category span.spinning:after {
   color: #fff;
 }
 
-/* line 136, icon/*.png */
-.icon-sprite, .icon-ball, .icon-ballet, .icon-bosu, .icon-cardio, .icon-circuit, .icon-kettlebell, .icon-kickbox, .icon-pilates, .icon-spinning, .icon-step, .icon-strength, .icon-yoga {
-  background-image: url('/images/icon-s3698c6a263.png');
+/* line 144, icon/*.png */
+.icon-sprite, .icon-ball, .icon-ballet, .icon-bosu, .icon-cardio, .icon-circuit, .icon-kettlebell, .icon-kickbox, .icon-pilates, .icon-spinning, .icon-step, .icon-strength, .icon-taichi, .icon-yoga {
+  background-image: url('/images/icon-s412c19757c.png');
   background-repeat: no-repeat;
 }
 
@@ -960,6 +905,11 @@ p.reviewer {
 }
 
 /* line 84, ../../../../../Program Files (x86)/Prepros4/gems/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-yoga {
+.icon-taichi {
   background-position: 0 -550px;
+}
+
+/* line 84, ../../../../../Program Files (x86)/Prepros4/gems/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-yoga {
+  background-position: 0 -600px;
 }
