@@ -1,5 +1,5 @@
 // Workout Details Page
-$image_size: 43px;
+$image_size: image-width("player.png");
 $image_offset: -($image_size);
 
 @mixin bp($place: 0) {
@@ -34,7 +34,7 @@ $image_offset: -($image_size);
       height: $image_size;
       line-height: $image_size;
       padding: 0 0 0 50px;
-      background: $base url(../images/player.png) no-repeat;
+      background: $base image-url("player.png") no-repeat;
       border: 5px solid $base;
       border-bottom: none;
       color: white;
@@ -50,7 +50,7 @@ $image_offset: -($image_size);
         border-bottom: none;
       }
       &.active {
-        background: #ffffff url(../images/player.png) no-repeat;
+        background: #ffffff image-url("player.png") no-repeat;
         color: $base;
         height: $image_size;
         border: 5px solid $base;
@@ -63,6 +63,7 @@ $image_offset: -($image_size);
       margin-right: 0;
     }
   }
+
 
   li.detail a { @include bp(1) }
   li.video a  { @include bp(3) }

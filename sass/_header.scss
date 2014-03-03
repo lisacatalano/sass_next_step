@@ -1,7 +1,7 @@
 // Header
 header {
   height: 125px;
-  background: transparent url(../images/logo.png) no-repeat 0 18px;
+  background: transparent image-url("logo.png") no-repeat 0 18px;
   border-bottom: 2px solid $accent;
   position: relative;
   margin-bottom: 25px;
@@ -28,7 +28,7 @@ header {
   }
   input[type="text"] {
     padding: 5px;
-    background: url(../images/search.png) no-repeat 5px 5px;
+    background: image-url("search.png") no-repeat 5px 5px;
     padding-left: 30px;
     font: bold italic 1.2em Georgia, "Times New Roman", Times, serif;
     color: #ddd;
