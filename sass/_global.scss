@@ -6,6 +6,10 @@ body {
   background-color: $base;
   font-family: $basefont;
   font-size: 80%;
+
+  @media screen and (max-width: 420px) {
+    background-color: #fff;
+  }
 }
 #container {
   width: 820px;
@@ -13,9 +17,12 @@ body {
   background-color: #fff;
   padding: 0 70px;
   @include box-shadow(-3px 0px 5px #20211D);
-//  -moz-box-shadow: -3px 0px 5px #20211D;
-//  -webkit-box-shadow: -3px 0px 5px #20211D;
-//  box-shadow: -3px 0px 5px #000;
+  @media screen and (max-width: 420px) {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+    @include box-shadow(0 0 0);
+  }
   behavior: url(PIE.htc);
 }
 
@@ -30,4 +37,10 @@ h2 {
 
 img {
   float: left;
+}
+
+@media screen and (max-width: 420px) {
+  .ad, .newsletter, #feature, #sidebar, header p, header .account {
+    display: none;
+  }
 }

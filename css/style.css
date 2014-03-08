@@ -126,8 +126,14 @@ body {
   font-family: "Trebuchet MS", san-serif;
   font-size: 80%;
 }
+@media screen and (max-width: 420px) {
+  /* line 5, ../sass/_global.scss */
+  body {
+    background-color: #fff;
+  }
+}
 
-/* line 10, ../sass/_global.scss */
+/* line 14, ../sass/_global.scss */
 #container {
   width: 820px;
   margin: 0 auto;
@@ -138,23 +144,40 @@ body {
   box-shadow: -3px 0px 5px #20211d;
   behavior: url(PIE.htc);
 }
+@media screen and (max-width: 420px) {
+  /* line 14, ../sass/_global.scss */
+  #container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    -moz-box-shadow: 0 0 0;
+    -webkit-box-shadow: 0 0 0;
+    box-shadow: 0 0 0;
+  }
+}
 
-/* line 22, ../sass/_global.scss */
+/* line 29, ../sass/_global.scss */
 #main {
   hidden: overflow;
   overflow: auto;
 }
 
-/* line 27, ../sass/_global.scss */
+/* line 34, ../sass/_global.scss */
 h2 {
   font-size: 2em;
 }
 
-/* line 31, ../sass/_global.scss */
+/* line 38, ../sass/_global.scss */
 img {
   float: left;
 }
 
+@media screen and (max-width: 420px) {
+  /* line 43, ../sass/_global.scss */
+  .ad, .newsletter, #feature, #sidebar, header p, header .account {
+    display: none;
+  }
+}
 /* line 2, ../sass/_header.scss */
 header {
   height: 125px;
@@ -163,23 +186,33 @@ header {
   position: relative;
   margin-bottom: 25px;
 }
-/* line 9, ../sass/_header.scss */
+@media screen and (max-width: 420px) {
+  /* line 2, ../sass/_header.scss */
+  header {
+    height: 300px;
+    width: 95%;
+    margin: 0 auto;
+    background-position: 0px 10px;
+    border: none;
+  }
+}
+/* line 17, ../sass/_header.scss */
 header h1 {
   text-indent: -9999px;
   height: 44px;
 }
-/* line 13, ../sass/_header.scss */
+/* line 21, ../sass/_header.scss */
 header p {
   font-weight: bold;
   margin-top: 12px;
   text-align: right;
 }
-/* line 18, ../sass/_header.scss */
+/* line 26, ../sass/_header.scss */
 header form {
   float: right;
   margin-top: 45px;
 }
-/* line 22, ../sass/_header.scss */
+/* line 30, ../sass/_header.scss */
 header input {
   position: relative;
   height: 16px;
@@ -188,7 +221,7 @@ header input {
   border-radius: 7px;
   behavior: url(PIE.htc);
 }
-/* line 29, ../sass/_header.scss */
+/* line 37, ../sass/_header.scss */
 header input[type="text"] {
   padding: 5px;
   background: url('../images/search.png?1393871739') no-repeat 5px 5px;
@@ -196,30 +229,30 @@ header input[type="text"] {
   font: bold italic 1.2em Georgia, "Times New Roman", Times, serif;
   color: #ddd;
 }
-/* line 36, ../sass/_header.scss */
+/* line 44, ../sass/_header.scss */
 header input[type="submit"] {
   height: 30px;
   width: 40px;
   font-weight: bold;
 }
-/* line 42, ../sass/_header.scss */
+/* line 50, ../sass/_header.scss */
 header .account {
   position: absolute;
   top: 20px;
   right: 145px;
 }
-/* line 47, ../sass/_header.scss */
+/* line 55, ../sass/_header.scss */
 header .account a {
   display: block;
   font-size: .9em;
   color: #4e4f48;
   padding-top: 0px;
 }
-/* line 53, ../sass/_header.scss */
+/* line 61, ../sass/_header.scss */
 header .account a:hover {
   text-decoration: underline;
 }
-/* line 57, ../sass/_header.scss */
+/* line 65, ../sass/_header.scss */
 header .account a[href^="cart"] {
   position: absolute;
   right: -100px;
@@ -228,12 +261,12 @@ header .account a[href^="cart"] {
   width: 86px;
   line-height: 30px;
 }
-/* line 66, ../sass/_header.scss */
+/* line 74, ../sass/_header.scss */
 header .account a[href^="cart"] img {
   margin-right: 8px;
 }
 
-/* line 73, ../sass/_header.scss */
+/* line 81, ../sass/_header.scss */
 .branding #logo {
   display: block;
   position: relative;
