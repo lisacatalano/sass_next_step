@@ -6,7 +6,7 @@ header {
   position: relative;
   margin-bottom: 25px;
 
-  @media screen and (max-width: 420px) {
+  @include mq() {
 	height: 300px;
 	width: 95%;
 	margin: 0 auto;
@@ -26,6 +26,11 @@ header {
   form {
     float: right;
     margin-top: 45px;
+    @include mq() {
+      float: none;
+      clear: right;
+      margin: 30px 20px 20px 5px;
+    }
   }
   input {
     position: relative;

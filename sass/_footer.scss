@@ -6,8 +6,16 @@ footer {
   margin-left: -1em;
   height: 30px;
 
+  @include mq() {
+	margin: 1em 0 1em .5em;
+	overflow: auto;
+	height: 6em;
+	font-size: 85%;
+  }
+
   li {
     list-style: none;
+    float: left;
 
     a {
       padding: 0 .8em;
@@ -23,4 +31,9 @@ footer {
 
 .copyright {
   text-align: right;
+  @include mq() {
+	margin: 3em 1em 1em 1em;
+	text-align: center;
+	clear: both;
+  }
 }

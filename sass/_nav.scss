@@ -5,6 +5,12 @@ nav {
   line-height: 30px;
   font-weight: bold;
 
+  @include mq() {
+	height: 200px;
+	margin: 0;
+	float: none;
+  }
+
   ul li a {
     position: relative;
     width: 112px;
@@ -15,6 +21,19 @@ nav {
     color: white;
     @include rounded;
     @extend %transition;
+
+    @include mq() {
+      display: block;
+      float: none;
+      width: 95%;
+      height: 35px;
+      padding: 0 0 0 10px;
+      margin: 2px auto;
+      font-size: 1.2em;
+      font-weight: bold;
+      text-align: left;
+      border-radius: 0px;
+    }
 
     &:hover {
       background-color: $accent;
@@ -28,8 +47,11 @@ nav {
   }
 }
 
-nav ul li, footer ul li {
+nav ul li {
   float: left;
+  @include mq() {
+    float: none;
+  }
 }
 
 

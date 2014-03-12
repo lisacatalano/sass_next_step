@@ -15,3 +15,9 @@ $icon_padding: 60px;
   border-radius: $radius;
   behavior: url(PIE.htc);
 }
+
+@mixin mq($width: 420px) {
+  @media screen and (max-width: $width) {
+    @content;
+  }
+}
